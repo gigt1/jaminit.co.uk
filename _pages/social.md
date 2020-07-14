@@ -2,6 +2,7 @@
 title: Social Media
 permalink: /social/
 layout: single
+---
 
 Follow me on social media:
 * Twitter - [@jamesatjaminit](https://twitter.com/jamesatjaminit)
