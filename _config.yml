@@ -22,7 +22,7 @@ subtitle                 : A little site written and published by James Cook
 name                     : "James Cook"
 description              : "A little site written and published by James Cook"
 url                      : https://jaminit.co.uk
-baseurl                  :
+baseurl                  : /
 repository               : "jamesatjaminit/jaminit.co.uk"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
