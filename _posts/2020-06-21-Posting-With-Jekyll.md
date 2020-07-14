@@ -1,5 +1,5 @@
 ---
-categories: [Websites, SiteDevelopment]
+categories: [Websites, Site Development]
 tags: [Website, Jekyll, Static]
 ---
 
