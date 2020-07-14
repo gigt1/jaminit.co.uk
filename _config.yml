@@ -94,7 +94,7 @@ analytics:
 # Site Author
 author:
   name             : "James Cook"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : /images/logos/profile.png
   bio              : "Hi, I'm James Cook, a programmer based in the UK"
   location         : "England"
   email            :
