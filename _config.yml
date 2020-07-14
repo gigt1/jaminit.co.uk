@@ -118,12 +118,9 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
+    - label: #"Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/jaminitofficial"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      url: "https://facebook.com/jaminitofficial"
+      url: #"https://twitter.com/link"
 
 # Reading Files
 include:
