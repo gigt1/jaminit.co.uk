@@ -97,7 +97,7 @@ author:
   avatar           : /images/logos/profile.png
   bio              : "Hi, I'm James Cook, a programmer based in the UK"
   location         : "England"
-  email            :
+  email            : "james@jaminit.co.uk"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
