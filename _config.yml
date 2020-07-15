@@ -17,7 +17,7 @@ site.environment         : production
 # Site Settings
 locale                   : "en-UK"
 title                    : JamInIT
-title_separator          : "-"
+title_separator          : "|"
 subtitle                 : A little site written and published by James Cook
 name                     : "James Cook"
 description              : "A little site written and published by James Cook"
