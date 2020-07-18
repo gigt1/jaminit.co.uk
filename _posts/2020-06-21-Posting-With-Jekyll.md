@@ -1,6 +1,6 @@
 ---
-categories: [Websites, Site Development]
-tags: [Website, Jekyll, Static]
+categories: [Websites]
+tags: [Website, Web Development]
 ---
 
 [Jekyll](https://jekyllrb.com/) is a static site generator for creating any type of site from blogs like this one to portfolio's or enterprise sites. It doesn't require a database and generates HTML files instead of generating dynamic sites that use php (like [wordpress](wordpress.org)).

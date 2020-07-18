@@ -1,6 +1,6 @@
 ---
-categories: [Websites, Speed]
-tags: [Cloudlflare, Speed]
+categories: [Websites]
+tags: [Cloudlflare, Speed, Website Speed]
 ---
 So, you’re probably here because you’re on the fence to deciding wether to take the leap and use Cloudflare. Well before I go and tell you all the reasons for using Cloudflare lets talk about the very few reasons when you shouldn’t and might not want to.
 

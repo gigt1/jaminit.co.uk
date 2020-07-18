@@ -1,6 +1,6 @@
 ---
-categories: [Game Development, Unity]
-tags: [Games, Play Store]
+categories: [Game Development]
+tags: [Games, Play Store, Unity]
 ---
 
 In this tutorial I’m going to be taking you through the basic steps in getting to know how to use Unity.

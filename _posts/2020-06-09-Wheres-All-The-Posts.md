@@ -1,6 +1,6 @@
 ---
-categories: [Misc, Website Updates]
-tags: [Website]
+categories: [Misc]
+tags: [Website Updates]
 title: Where's all the posts gone?
 ---
 You may have noticed that the blog looks totally different and all the content is missing. Let me explain where all the content has gone.
