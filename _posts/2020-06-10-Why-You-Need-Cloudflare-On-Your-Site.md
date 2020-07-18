@@ -19,7 +19,7 @@ Now the part where I tell you when you should use Cloudflare
 
 Cloudflare’s main USP is a CDN, what this means is that it caches your site around the world. This means when your client requests your site, the datacentre serves your site from the closest location to them instead of going all the way to your server.
 
-![Diagram of bounce rate](/images/2020/06/10/BounceRateGoogle.jpg)
+![Diagram of bounce rate](/images/BounceRateGoogle.jpg)
 Above: a diagram showing the probability of bounce rate
 
 The diagram above shows that the slower your server is at loading your page the more likely visitors are simply going to get bored of your site loading and move onto something else.
@@ -31,7 +31,7 @@ The diagram above shows that the slower your server is at loading your page the 
 
 You’ve probably heard of websites getting “DDosed” (Distributed Denial of Service). It’s basically where attackers keep pinging your server with 1000’s of requests a second until your server simply cannot cope anymore and crashes. An advantage of using Cloudflare is that they protect your servers from being DDosed.
 
-![Diagram of bounce rate](/images/2020/06/10/DDos-Page.gif)
+![Diagram of bounce rate](/images/DDos-Page.gif)
 Above: Cloudflare protecting a site from a DDos attack
 
 ### It’s FREE:

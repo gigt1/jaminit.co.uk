@@ -26,7 +26,7 @@ title: Making a Jekyll sites
 ---
 ```
 After this we can simply write our post content in markdown, if you want to learn markdown you can do [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).  
-![An example markdown site](/images/2020/06/21/Example-Markdown-File.png)  
+![An example markdown site](/images/Example-Markdown-File.png)  
 Above: An example file written in markdown.  
 3) Finally we will want to publish our site, this means we need to build our site and convert the files from markdown to HTML. Simply just open your terminal, go to the directory that your Jekyll site is in and run the following:
 ```
