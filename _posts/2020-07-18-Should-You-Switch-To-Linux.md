@@ -13,7 +13,7 @@ Above: The Linux Mint desktop
 # Why you shouldn't switch
 * It doesn't have as much support - The Linux community is significantly smaller than Windows and MacOS. Its not for the faint hearted, by prepared to by searching of forums and stack exchange for the occasional error or program that doesn't work since you may run into them.
 * It isn't as user friendly - You're going to need to learn some basic terminal commands to do things every now and then. Most things can be done from a nice little GUI if you'd like however.
-![Ask ubuntu page](/images/ask-ubuntu-main-page.png)
+![Ask ubuntu page](/images/ask-ubuntu-main-page.PNG)
 Above: One of the best places to get help on ask ubuntu
 # Overall, Should you move?
 Personally, I think if you are a developer or someone else who is interested in computers I think you should switch to Linux. Its so much easier to use once you get used to it and will teach you lots about how systems work. Even Microsoft use Linux for their servers and not Windows. If you're new to Linux setup a VM in something like [VirtualBox](https://www.virtualbox.org) so you don't mess up your computer by accident. Once you're comfortable with this you could (if you wanted to) move to Linux as your primary OS. Make sure you know that some common programs, for example Microsoft Office are **not** supported yet (however, Microsoft Office 2010 does work in Wine).
