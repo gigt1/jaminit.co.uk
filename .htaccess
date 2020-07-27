@@ -1,6 +1,6 @@
 RewriteEngine On
-ErrorDocument 404 https://jaminit.co.uk/404/
-ErrorDocument 403 https://jaminit.co.uk/403/
+ErrorDocument 404 /404/
+ErrorDocument 403 /403/
 
 Options -Indexes
 
