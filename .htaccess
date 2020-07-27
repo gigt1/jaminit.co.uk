@@ -24,7 +24,7 @@ mod_gzip_item_exclude mime ^image/.*
 mod_gzip_item_exclude rspheader ^Content-Encoding:.*gzip.*
 </ifModule>
 
-Header always set Content-Security-Policy "script-src 'self'"
+Header always set Content-Security-Policy "script-src 'self' 'unsafe-inline'"
 Header always append Content-Security-Policy "style-src 'self' https://cdn.jsdelivr.net'
 Header always append Content-Security-Policy "img-src 'self'"
 Header always append Content-Security-Policy "font-src 'self' https://cdn.jsdelivr.net"
