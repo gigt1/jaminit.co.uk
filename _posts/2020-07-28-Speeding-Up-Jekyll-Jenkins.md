@@ -26,17 +26,17 @@ Well done! You've successfully installed Jenkins, now to setup our first job. I'
 ## Setting Up the Job
 1) Once you've installed Jenkins head over to the  'New Item' button on the main page of Jenkins, for this tutorial we are going to be using a 'Freestyle Project' so select that. Also give you're item a name.  
 
-![](/images/Jenkins-Create-New-Item.PNG)  
+![An image showing the create item screen on Jenkins](/images/Jenkins-Create-New-Item.PNG)  
 Above: You should be greeted with this screen, just input a name and you're good to go!  
 
 2) Next you'll be greeted with a lot of options, we are going to scroll down to 'Source code management', choose git and enter the URL of your repo. Click the add button next to credentials and input your username and password for Github. You can leave all the other settings default in this section.  
 
-![](/images/source-code-management-jenkins.PNG)  
+![An image showing the source code management screen on Jenkins](/images/source-code-management-jenkins.PNG)  
 Above: Input the URL of your Github Repo in the Repository URL Box  
 
 3) After that, scroll down to build triggers and select 'Github hook trigger for GITScm polling', this is basically a Github webhook which we will configure later.  
 
-![](/images/build-triggers-jenkins.PNG)  
+![An image showing the trigger](/images/build-triggers-jenkins.PNG)  
 Above: Select the 'Github hook trigger for GITScm polling' option.  
 
 4) Now for the main part, we need to add some build steps, scroll down to this section and an 'execute shell' step, for jekyll all you need is the following:
@@ -104,4 +104,4 @@ $output = shell_exec("/path/to/script/download.sh");
 ?>
 ```
 
-You've done! You've completely automated the build process of your Jekyll website, now whenever you push to your github your site will automatically update without you having to do anything!
+You've done! You've completely automated the build process of your Jekyll website, now whenever you push to your Github your site will automatically update without you having to do anything!
