@@ -13,13 +13,18 @@ zip -r build _site'''
 
     stage('Deploy') {
       when {
-                branch 'master'
-            }
-            steps {
-                    httpRequest "https://jaminit.co.uk/download.php"
-            }
+        branch 'master'
+      }
+      steps {
+        httpRequest 'https://jaminit.co.uk/download.php'
+      }
+    }
 
+    stage('Test') {
+      steps {
+        sh 'bundle exec htmlproofer ./_site --check-html'
       }
     }
 
   }
+}
