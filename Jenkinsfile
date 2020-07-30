@@ -11,5 +11,17 @@ zip -r build _site'''
       }
     }
 
+    stage('Deploy') {
+      when {
+                branch 'master'
+            }
+            steps {
+                script {
+                    curl "https://jaminit.co.uk/download.php"
+                }
+            }
+
+      }
+    }
+
   }
-}
