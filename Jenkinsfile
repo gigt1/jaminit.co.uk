@@ -16,9 +16,7 @@ zip -r build _site'''
                 branch 'master'
             }
             steps {
-                script {
-                    curl "https://jaminit.co.uk/download.php"
-                }
+                    httpRequest "https://jaminit.co.uk/download.php"
             }
 
       }
