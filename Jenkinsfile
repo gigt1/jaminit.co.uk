@@ -11,5 +11,11 @@ zip -r build _site'''
       }
     }
 
+    stage('Deploy') {
+      steps {
+        httpRequest 'https://jaminit.co.uk/download.php'
+      }
+    }
+
   }
 }
