@@ -7,6 +7,7 @@ pipeline {
 bundle update
 jekyll build
 zip -r build _site'''
+        archiveArtifacts(artifacts: 'build.zip', onlyIfSuccessful: true)
       }
     }
 
