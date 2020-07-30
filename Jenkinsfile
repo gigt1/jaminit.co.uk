@@ -22,7 +22,7 @@ zip -r build _site'''
 
     stage('Test') {
       steps {
-        sh 'bundle exec htmlproofer ./_site --check-html'
+        sh 'bundle exec htmlproofer ./_site --check-html --disable-external'
       }
     }
 
