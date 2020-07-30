@@ -3,11 +3,8 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh '''gem install bundler jekyll
-bundle update
-jekyll build
-zip -r build _site'''
-        archiveArtifacts(artifacts: 'build.zip', onlyIfSuccessful: true, fingerprint: true)
+        sh 'cd /'
+        sh 'ls | echo'
       }
     }
 
