@@ -22,7 +22,7 @@ zip -r build _site'''
         branch 'master'
       }
       steps {
-        sh 'wget "https://jaminit.co.uk/download.php"'
+        sh '~/jaminit_files/download.sh'
       }
     }
 
