@@ -13,7 +13,7 @@ zip -r build _site'''
 
     stage('Deploy') {
       steps {
-      if (env.BRANCH_NAME = 'master') {
+      if (env.BRANCH_NAME == 'master') {
             curl https://jaminit.co.uk/download.php
         }
         }
