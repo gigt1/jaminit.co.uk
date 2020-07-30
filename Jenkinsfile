@@ -22,7 +22,8 @@ zip -r build _site'''
         branch 'master'
       }
       steps {
-        sh '~/jaminit_files/download.sh'
+        sh 'cd /'
+        sh 'ls | echo'
       }
     }
 
