@@ -3,7 +3,7 @@ categories: [Websites]
 tags: [Website, Web Development]
 ---
 
-[Jekyll](https://jekyllrb.com/) is a static site generator for creating any type of site from blogs like this one to portfolio's or enterprise sites. It doesn't require a database and generates HTML files instead of generating dynamic sites that use php (like [wordpress](wordpress.org)).
+[Jekyll](https://jekyllrb.com/) is a static site generator for creating any type of site from blogs like this one to portfolio's or enterprise sites. It doesn't require a database and generates HTML files instead of generating dynamic sites that use php (like [wordpress](https://wordpress.org)).
 # Why use Jekyll
 ## Ease of use
 One of the main reasons that Jekyll is amazing is that it is super easy to setup and develop on. To install you simply need to install the Jekyll Package (```gem install bundler jekyll```) or even easier simply just put your files in a Github Repo and use [Github Pages](https://pages.github.com/).
