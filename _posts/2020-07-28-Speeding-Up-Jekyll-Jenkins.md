@@ -26,7 +26,7 @@ Well done! You've successfully installed Jenkins, now to setup our first job. I'
 ## Setting Up the Job
 1) Once you've installed Jenkins head over to the  'New Item' button on the main page of Jenkins, for this tutorial we are going to be using a 'Freestyle Project' so select that. Also give you're item a name.  
 
-![An image showing the create item screen on Jenkins](/images/Jenkins-Create-New-Item.PNG)  
+![An image showing the create item screen on Jenkins](/images/jenkins-create-new-item.PNG)  
 Above: You should be greeted with this screen, just input a name and you're good to go!  
 
 2) Next you'll be greeted with a lot of options, we are going to scroll down to 'Source code management', choose git and enter the URL of your repo. Click the add button next to credentials and input your username and password for Github. You can leave all the other settings default in this section.  
@@ -48,17 +48,17 @@ zip -r build _site
 ```
 The last command simply zips up the finished build so we can use it later.  
 
-![](/images/execute-shell-jenkins.PNG)
+![An image showing the box where you input the commands](/images/execute-shell-jenkins.PNG)
 Above: Input the commands into the commands box.  
 
 5) Finally, all we need to do is add a 'Post build action', we need to add the 'Archive Artifacts' action, all this will do it make the finished zip downloadable. Make sure you input the name of the zip, in our case it is `build.zip`  
 
-![](/images/archive-build-zip-jenkins.PNG)  
+![An image showing the box where you input build.zip in Jenkins](/images/archive-build-zip-jenkins.PNG)  
 Above: Simply put `build.zip` in the files to archive box.  
 
 6) Well done! You've finished setting up the Job, click save and it will take you back to the job home page. If you'd like, you can test your job now by clicking the 'Build Now' option on the sidebar.  
 
-![](/images/build-now-jenkins.PNG)  
+![An image containing a big circle around a build now button](/images/build-now-jenkins.PNG)  
 Above: You can click the 'Build Now' option if you'd like to test it
 
 ## Adding the Github Webhook
@@ -66,12 +66,12 @@ Above: You can click the 'Build Now' option if you'd like to test it
 
 2) Now go to the Webhooks section and click 'Add Webhook', if needed enter your password and continue.  
 
-![](/images/webhooks-sidebar-github.PNG)  
+![An image containing the webhooks options on github](/images/webhooks-sidebar-github.PNG)  
 Above: Click the webhooks link on the sidebar
 
 3) You'll need to enter a 'Payload URL' this is basically your Jekyll install location with '/github-webhook' appended. For example `https://jenkins.example.co.uk/github-webhook`.  
 
-![](/images/webhook-github-repo.PNG)
+![The webhooks screen in github settings](/images/webhook-github-repo.PNG)
 Above: Configure your webhook as follows.  
 
 4) Leave everything else default and click 'Add Webhook'.  
@@ -85,7 +85,7 @@ For this to work you're going to need a webserver already setup and working, you
 
 2) Once you've added the plugin head back over to your job you created earlier and go back to the 'Configure menu', notice how we've got a new section called 'Job Notifications', leave everything with the defaults apart from the URL field, here enter your domain and the name of the PHP file that you want to use (we will create it next).  
 
-![](/images/job-notifications-jenkins.PNG)  
+![The job notifications screen in Jenkins](/images/job-notifications-jenkins.PNG)  
 Above: Input the URL of your website in the URL box  
 
 3) Lets create a bash script on your webserver, this is basically going to download the zip file, unzip it and move it to your webroot. Create a bash file called `download.sh` and put the following in:
