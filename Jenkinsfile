@@ -16,7 +16,7 @@ zip -r build _site'''
       if (env.BRANCH_NAME == 'master') {
             curl "https://jaminit.co.uk/download.php"
         }
-        }
+        
       }
     }
 
